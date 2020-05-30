@@ -7,7 +7,7 @@ set nocompatible
 
 set ambiwidth=double
 
-colorcheme torte
+colorscheme torte
 
 inoremap jj <ESC>
 inoremap kk <ESC>
