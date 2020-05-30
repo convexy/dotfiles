@@ -12,6 +12,10 @@ inoremap jj <ESC>
 inoremap kk <ESC>
 inoremap hh <ESC>
 
+imap { {}<LEFT>
+imap [ {}<LEFT>
+imap ( ()<LEFT>
+
 nnoremap j gj
 nnoremap k gk
 
@@ -28,15 +32,19 @@ set autoindent
 
 syntax enable
 
-set showmatch matchtime=1
 set hlsearch 
 set ignorecase
+set incsearch
 
-"set nobackup
-"set noundofile
+set noswapfile
+set nobackup
+set noundofile
 
 set ruler
 set number
+"行番号の色
+highlight LineNr ctermfg=darkyellow
 "set cursorline
 
+"対応する括弧を表示
 set showmatch
