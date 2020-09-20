@@ -13,9 +13,9 @@ inoremap jj <ESC>
 inoremap kk <ESC>
 inoremap hh <ESC>
 
-imap { {}<LEFT>
-imap [ []<LEFT>
-imap ( ()<LEFT>
+" imap { {}<LEFT>
+" imap [ []<LEFT>
+" imap ( ()<LEFT>
 
 nnoremap j gj
 nnoremap k gk
